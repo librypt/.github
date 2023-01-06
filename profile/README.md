@@ -9,3 +9,4 @@ libRypt is a cryptography suite of libraries for simple, secure, and efficient c
 | Symmetric Encryption (AEAD)                   | [AES-GCM](https://www.github.com/librypt/librypt-aead-aes) |
 | Asymmetric Encryption                         | [RSA](https://www.github.com/librypt/librypt-aea-rsa)      |
 | Digital Signatures                            | [ECDSA](https://www.github.com/librypt/librypt-signature-ecdsa), [EdDSA](https://www.github.com/librypt/librypt-signature-eddsa), [RSA](https://www.github.com/librypt/librypt-signature-rsa) |
+| Key Agreement Protocols                       | [DH](https://www.github.com/librypt/librypt-kap-dh), [ECDH](https://www.github.com/librypt/librypt-kap-ecdh) |
