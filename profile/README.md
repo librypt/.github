@@ -8,7 +8,7 @@ libRypt is an in-progress cryptography suite of libraries for simple, secure, an
 | Key Derivation Function                       | [HKDF](https://www.github.com/librypt/librypt-kdf-hkdf)    |
 | Symmetric Encryption (AEAD)                   | [AES-GCM](https://www.github.com/librypt/librypt-aead-aes) |
 | Asymmetric Encryption                         | [RSA](https://www.github.com/librypt/librypt-aea-rsa)      |
-| Digital Signatures                            | [ECDSA](https://www.github.com/librypt/librypt-signature-ecdsa), [EdDSA](https://www.github.com/librypt/librypt-signature-eddsa), [RSA](https://www.github.com/librypt/librypt-signature-rsa) |
+| Digital Signatures                            | [DSA](https://www.github.com/librypt/librypt-signature-dsa), [RSA](https://www.github.com/librypt/librypt-signature-rsa), [ECDSA](https://www.github.com/librypt/librypt-signature-ecdsa), [EdDSA](https://www.github.com/librypt/librypt-signature-eddsa) |
 | Key Agreement Protocols                       | [DH](https://www.github.com/librypt/librypt-kap-dh), [ECDH](https://www.github.com/librypt/librypt-kap-ecdh) |
 
 **Goals:**
