@@ -1,5 +1,5 @@
 ## About libRypt
-libRypt is a cryptography suite of libraries for simple, secure, and efficient cryptography in the Rust programming language. libRypt supports most of the common cryptographic algorithms:
+libRypt is an in-progress cryptography suite of libraries for simple, secure, and efficient cryptography in the Rust programming language.
 
 | **Type of Cryptography**                      | **Implemented Algorithms** |
 |-----------------------------------------------|----------------------------|
@@ -10,3 +10,13 @@ libRypt is a cryptography suite of libraries for simple, secure, and efficient c
 | Asymmetric Encryption                         | [RSA](https://www.github.com/librypt/librypt-aea-rsa)      |
 | Digital Signatures                            | [ECDSA](https://www.github.com/librypt/librypt-signature-ecdsa), [EdDSA](https://www.github.com/librypt/librypt-signature-eddsa), [RSA](https://www.github.com/librypt/librypt-signature-rsa) |
 | Key Agreement Protocols                       | [DH](https://www.github.com/librypt/librypt-kap-dh), [ECDH](https://www.github.com/librypt/librypt-kap-ecdh) |
+
+**Goals:**
+* Support many common cryptographic traits & algorithm implementations
+* Written in 100% safe Rust (with optional *unsafe* SIMD integration)
+* Simple and ergonomic APIs that are hard to misuse
+* Extensive documentation
+
+**Non-goals:**
+* Integration with existing cryptography libraries (such as OpenSSL)
+* Support for other languages (the APIs are Rust-focused)
