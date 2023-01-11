@@ -10,6 +10,7 @@ libRypt is an in-progress cryptography suite of libraries for simple, secure, an
 | Asymmetric Encryption                         | [RSA](https://www.github.com/librypt/librypt-aea-rsa)      |
 | Digital Signatures                            | [DSA](https://www.github.com/librypt/librypt-signature-dsa), [RSA](https://www.github.com/librypt/librypt-signature-rsa), [ECDSA](https://www.github.com/librypt/librypt-signature-ecdsa), [EdDSA](https://www.github.com/librypt/librypt-signature-eddsa) |
 | Key Agreement Protocols                       | [DH](https://www.github.com/librypt/librypt-kap-dh), [ECDH](https://www.github.com/librypt/librypt-kap-ecdh) |
+| One-time Passwords                            | [TOTP](https://www.github.com/librypt/librypt-otp-totp) |
 
 **Goals:**
 * Support many common cryptographic traits & algorithm implementations
