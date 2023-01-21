@@ -7,7 +7,7 @@ libRypt is an in-progress cryptography suite of libraries for simple, secure, an
 
 | **Type of Cryptography**                      | **Implemented Algorithms** |
 |-----------------------------------------------|----------------------------|
-| Hash Function                                 | [MD5 ✔️](https://www.github.com/librypt/librypt-hash-md5), [SHA-1 ✔️](https://www.github.com/librypt/librypt-hash-sha1), [SHA-2 ✔️](https://www.github.com/librypt/librypt-hash-sha2), [SHA-3 ✔️](https://www.github.com/librypt/librypt-hash-sha3), [BLAKE2b 🛠️](https://www.github.com/librypt/librypt-hash-blake2) |
+| Hash Function                                 | [MD5 ✔️](https://www.github.com/librypt/librypt-hash-md5), [SHA-1 ✔️](https://www.github.com/librypt/librypt-hash-sha1), [SHA-2 ✔️](https://www.github.com/librypt/librypt-hash-sha2), [SHA-3 ✔️](https://www.github.com/librypt/librypt-hash-sha3), [BLAKE2 🛠️](https://www.github.com/librypt/librypt-hash-blake2) |
 | Message Authentication Code | [HMAC ✔️](https://www.github.com/librypt/librypt-mac-hmac)                      |
 | Key Derivation Function                       | [HKDF ✔️](https://www.github.com/librypt/librypt-kdf-hkdf)    |
 | Symmetric Encryption (AEAD)                   | [AES-GCM 🛠️](https://www.github.com/librypt/librypt-aead-aes) |
