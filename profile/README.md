@@ -1,20 +1,21 @@
 ## About libRypt
 libRypt is an in-progress cryptography suite of libraries for simple, secure, and efficient cryptography in the Rust programming language.
 
-* 🛠️ - In development
-* ✔️ - Working (passing tests)
+* 🛠️ - Planned, in progress
+* 🆗 - Working (passing tests)
 * ✅ - Audited/verified (ready for production use)
+* 🚧 - Maintainence, deprecated
 
 | **Type of Cryptography**                      | **Implemented Algorithms** |
 |-----------------------------------------------|----------------------------|
-| Hash Function                                 | [MD5 ✔️](https://www.github.com/librypt/librypt-hash-md5), [SHA-1 ✔️](https://www.github.com/librypt/librypt-hash-sha1), [SHA-2 ✔️](https://www.github.com/librypt/librypt-hash-sha2), [SHA-3 ✔️](https://www.github.com/librypt/librypt-hash-sha3), [BLAKE2 🛠️](https://www.github.com/librypt/librypt-hash-blake2) |
-| Message Authentication Code | [HMAC ✔️](https://www.github.com/librypt/librypt-mac-hmac)                      |
-| Key Derivation Function                       | [HKDF ✔️](https://www.github.com/librypt/librypt-kdf-hkdf)    |
+| Hash Function                                 | [MD2](https://www.github.com/librypt/librypt-hash-md2) 🛠️, [MD4](https://www.github.com/librypt/librypt-hash-md4) 🛠️, [MD5 🆗](https://www.github.com/librypt/librypt-hash-md5), [MD6](https://www.github.com/librypt/librypt-hash-md6) 🛠️, [SHA-1 🆗](https://www.github.com/librypt/librypt-hash-sha1), [SHA-2 🆗](https://www.github.com/librypt/librypt-hash-sha2), [SHA-3 🆗](https://www.github.com/librypt/librypt-hash-sha3), [BLAKE2 🛠️](https://www.github.com/librypt/librypt-hash-blake2), [Whirlpool](https://www.github.com/librypt/librypt-hash-whirlpool) 🛠️ |
+| Message Authentication Code                   | [HMAC 🆗](https://www.github.com/librypt/librypt-mac-hmac)                      |
+| Key Derivation Function                       | [HKDF 🆗](https://www.github.com/librypt/librypt-kdf-hkdf)    |
 | Symmetric Encryption (AEAD)                   | [AES-GCM 🛠️](https://www.github.com/librypt/librypt-aead-aes) |
 | Asymmetric Encryption                         | [RSA 🛠️](https://www.github.com/librypt/librypt-aea-rsa)      |
 | Digital Signatures                            | [DSA 🛠️](https://www.github.com/librypt/librypt-signature-dsa), [RSA 🛠️](https://www.github.com/librypt/librypt-signature-rsa), [ECDSA 🛠️](https://www.github.com/librypt/librypt-signature-ecdsa), [EdDSA 🛠️](https://www.github.com/librypt/librypt-signature-eddsa) |
 | Key Agreement Protocols                       | [DH 🛠️](https://www.github.com/librypt/librypt-kap-dh), [ECDH 🛠️](https://www.github.com/librypt/librypt-kap-ecdh) |
-| One-time Passwords                            | [HOTP ✔️](https://www.github.com/librypt/librypt-hotp), [TOTP ✔️](https://www.github.com/librypt/librypt-totp) |
+| One-time Passwords                            | [HOTP 🆗](https://www.github.com/librypt/librypt-hotp), [TOTP 🆗](https://www.github.com/librypt/librypt-totp) |
 
 **Goals:**
 * Support many common cryptographic traits & algorithm implementations
