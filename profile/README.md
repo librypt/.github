@@ -20,7 +20,9 @@ libRypt is an in-progress cryptography suite of libraries for simple, secure, an
 **Goals:**
 * Support many common cryptographic traits & algorithm implementations
 * Written in 100% safe Rust (with optional *unsafe* optimizations)
+* Embedded and WASM friendly (no_std everywhere)
 * Simple and ergonomic APIs that are hard to misuse
+* No third-party dependencies
 * Extensive documentation
 
 **Non-goals:**
