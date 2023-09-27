@@ -13,13 +13,14 @@ libRypt is an in-progress cryptography suite of libraries for simple, secure, an
 | Key Derivation Function                       | [HKDF 🆗](https://www.github.com/librypt/librypt-kdf-hkdf)    |
 | Symmetric Encryption (AEAD)                   | [AES-GCM 🛠️](https://www.github.com/librypt/librypt-aead-aes) |
 | Asymmetric Encryption                         | [RSA 🛠️](https://www.github.com/librypt/librypt-aea-rsa)      |
-| Digital Signatures                            | [DSA 🛠️](https://www.github.com/librypt/librypt-signature-dsa), [RSA 🛠️](https://www.github.com/librypt/librypt-signature-rsa), [ECDSA 🛠️](https://www.github.com/librypt/librypt-signature-ecdsa), [EdDSA 🛠️](https://www.github.com/librypt/librypt-signature-eddsa) |
+| Digital Signatures                            | [DSA 🛠️](https://www.github.com/librypt/librypt-signature-dsa), [RSA 🛠️](https://www.github.com/librypt/librypt-signature-rsa), [ECDSA 🛠️](https://www.github.com/librypt/librypt-signature-ecdsa), [EdDSA 🛠️](https://www.github.com/librypt/librypt-signature-eddsa), Dilithium 🛠️, Falcon 🛠️ |
 | Key Agreement Protocols                       | [DH 🛠️](https://www.github.com/librypt/librypt-kap-dh), [ECDH 🛠️](https://www.github.com/librypt/librypt-kap-ecdh) |
+| Key Exchange Mechanisms                       | Kyber 🛠️ |
 | One-time Passwords                            | [HOTP 🆗](https://www.github.com/librypt/librypt-hotp), [TOTP 🆗](https://www.github.com/librypt/librypt-totp) |
 
 **Goals:**
-* Support many common cryptographic traits & algorithm implementations
-* Written in 100% safe Rust (with optional *unsafe* optimizations)
+* Support many common cryptographic traits, primitives, and algorithm implementations
+* Written in 100% safe Rust (potentially with optional *unsafe* optimizations)
 * Embedded and WASM friendly (no_std everywhere)
 * Simple and ergonomic APIs that are hard to misuse
 * No third-party dependencies
