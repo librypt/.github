@@ -6,6 +6,8 @@ libRypt is an in-progress cryptography suite of libraries for simple, secure, an
 * ✅ - Audited/verified (ready for production use)
 * 🚧 - Maintainence, deprecated
 
+**NOTE:** If there is an algorithm or feature missing from this table that you think should be apart of libRypt, please let us know by creating an issue on the main repository!
+
 | **Type of Cryptography**                      | **Implemented Algorithms** |
 |-----------------------------------------------|----------------------------|
 | Hash Function                                 | [MD2 🛠️](https://www.github.com/librypt/librypt-hash-md2), [MD4 🛠️](https://www.github.com/librypt/librypt-hash-md4), [MD5 🆗](https://www.github.com/librypt/librypt-hash-md5), [MD6 🛠️](https://www.github.com/librypt/librypt-hash-md6), [SHA-1 🆗](https://www.github.com/librypt/librypt-hash-sha1), [SHA-2 🆗](https://www.github.com/librypt/librypt-hash-sha2), [SHA-3 🆗](https://www.github.com/librypt/librypt-hash-sha3), [BLAKE2 🆗](https://www.github.com/librypt/librypt-hash-blake2), [Whirlpool 🛠️](https://www.github.com/librypt/librypt-hash-whirlpool) |
@@ -19,7 +21,7 @@ libRypt is an in-progress cryptography suite of libraries for simple, secure, an
 | One-time Passwords                            | [HOTP 🆗](https://www.github.com/librypt/librypt-hotp), [TOTP 🆗](https://www.github.com/librypt/librypt-totp) |
 
 **Goals:**
-* Support many common cryptographic traits, primitives, and algorithm implementations
+* Support all common cryptographic traits, primitives, and algorithm implementations
 * Written in 100% safe Rust (potentially with optional *unsafe* optimizations)
 * Embedded and WASM friendly (no_std everywhere)
 * Simple and ergonomic APIs that are hard to misuse
